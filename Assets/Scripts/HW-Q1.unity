@@ -930,7 +930,6 @@ MonoBehaviour:
       m_Action: Toggle Visibility
       m_Flags: 0
     m_Flags: 0
-  toggleDelay: 0.1
 --- !u!1 &730873666
 GameObject:
   m_ObjectHideFlags: 0

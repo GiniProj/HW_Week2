@@ -98,11 +98,7 @@ $RECYCLE.BIN/
 # Office temporary files
 ~*
 
+
 # Pycharm project
 .idea
-
-# Unity Unnecessary Folders
-.Library/
-.Logs/
-.Temp/
-.git/
+.vsconfig

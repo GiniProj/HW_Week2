@@ -12,7 +12,7 @@ public class Oscillator : MonoBehaviour
 
     [Tooltip("Limit of the object's movement from its center position")]
     [Range(0.1f, 2f)]  // Min and Max range
-    [SerializeField] private float limitObjectMovement = 2f;  // Default amplitude of 2 units
+    [SerializeField] private float limitObjectMovement = 2f;  // Default range of 2 units
 
     [Tooltip("Speed of the object's movement (Higher values = faster movement)")]
     [Range(0.1f, 2f)]  // Min and Max range - Prevent too slow or too fast oscillations
@@ -29,7 +29,7 @@ public class Oscillator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float factor = Mathf.Sin(Time.time * Mathf.PI*speedObjectMovement);  // Calculate the factor of the object's movement (Repeated wave Movement value -1 to 1)
+        float factor = Mathf.Sin(Time.time * Mathf.PI * speedObjectMovement);  // Calculate the factor of the object's movement (Repeated wave Movement value -1 to 1)
 
         // Move the object to the new position based on the factor, direction, and limit of movement
         transform.position = startPosition + factor * limitObjectMovement * directionMovement.normalized;

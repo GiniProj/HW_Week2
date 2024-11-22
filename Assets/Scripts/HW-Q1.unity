@@ -825,7 +825,7 @@ GameObject:
   - component: {fileID: 637187646}
   - component: {fileID: 637187648}
   m_Layer: 0
-  m_Name: Slime
+  m_Name: Red_Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -922,7 +922,7 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: f5c5a47c-20a8-4cde-beca-918ecb3d8274
+      m_Id: 1f1f209e-726a-4710-9173-e495be4b6eb7
       m_Path: <Keyboard>/space
       m_Interactions: 
       m_Processors: 

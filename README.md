@@ -1,1 +1,21 @@
-[Uploaded Files at Our itch.io Account](https://kg-proj.itch.io/hw-week2)
+### Week 2 - Weekly Unity Assignment - Question 1 - Unity Intro
+
+[**Play the Game on Itch.io**](https://your-itchio-project-link)
+
+---
+
+This week's assignment focuses on exploring Unity concepts by implementing specific components to demonstrate camera and object behaviors. The tasks include creating interactive Unity scenes that incorporate motion, rotation, and user input features.
+
+#### **Goals**
+- Extend understanding of Unity concepts taught in lectures.
+- Practice teamwork and collaboration using GitHub for version control.
+- Publish the created projects on Itch.io for easy access and sharing.
+
+#### **Components Developed**
+- **Mover Component**: A component that moves objects in oscillating motion.
+- **Rotator Component**: A component that rotates objects around a specific axis.
+- **Heartbeat Scale Component**: A component that changes is size as heartbeat.
+- **Visibility Toggle Component**: A component to show or hide objects with a button press.
+
+
+For further details, please refer to the course guidelines and the Unity documentation linked in the course materials.
